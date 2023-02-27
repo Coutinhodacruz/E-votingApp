@@ -38,9 +38,10 @@ public class Voters {
         votersDetails.setFirstName("Coutinho");
         votersDetails.setLastName("Dacruz");
         votersDetails.getAge(25);
-        Candidates preferredCandidate = Candidates.LP_Peter_obi;
+        Candidates preferredCandidate = Candidates.LP_PETER_OBI;
         voters.addVotes(eligibleVoters);
         return "Successfully voted!";
     }
+
 
 }

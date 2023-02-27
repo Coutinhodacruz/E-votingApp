@@ -35,7 +35,7 @@ public class PvcDetails {
         else
         {
             System.out.println("Not eligible to vote.");
-            System.exit(00);
+            System.exit(0);
         }
         return age;
     }

@@ -62,27 +62,27 @@ public class eVoting {
                 """);
         int choice = scanner.nextInt();
         if (choice == 1) {
-            Candidates preferredCandidate = Candidates.LP_Peter_obi;
+            Candidates preferredCandidate = Candidates.LP_PETER_OBI;
             peterObi++;
             System.out.println("Thank you for your vote!");
             eligibleVoters.vote();
         } else if (choice == 2) {
-            Candidates preferredCandidate = Candidates.PDP_Atiku_Abubakar;
+            Candidates preferredCandidate = Candidates.PDP_ATIKU_ABUBAKAR;
             atikuAbubakar++;
             System.out.println("Thank you for your vote!");
             eligibleVoters.vote();
         } else if (choice == 3) {
-            Candidates preferredCandidate = Candidates.APC_Bola_Tinubu;
+            Candidates preferredCandidate = Candidates.APC_BOLA_TINUBU;
             bolaTinubu++;
             System.out.println("Thank you for your vote!");
             eligibleVoters.vote();
         } else if (choice == 4) {
-            Candidates preferredCandidate = Candidates.AAC_Omoyele_Sowore;
+            Candidates preferredCandidate = Candidates.AAC_OMOYELE_SOWORE;
             omoyeleSowore++;
             System.out.println("Thank you for your vote!");
             eligibleVoters.vote();
         } else if (choice == 5) {
-            Candidates preferredCandidate = Candidates.NNPP_Rabiu_Kwankwaso;
+            Candidates preferredCandidate = Candidates.NNPP_RABIU_KWANKWASO;
             rabiuKwankwaso++;
             System.out.println("Thank you for your vote!");
             eligibleVoters.vote();
